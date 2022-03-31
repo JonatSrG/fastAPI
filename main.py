@@ -210,7 +210,7 @@ def update_a_user(user_id: UUID = Path(
                 first_name=str(user_new["first_name"]),
                 last_name=str(user_new["last_name"]),
                 birth_date=str(user_new["birth_date"]))
-## Tweets
+## Tweets aqui empezamos 
 
 ### Show all Tweets
 @app.get(
@@ -223,7 +223,7 @@ def update_a_user(user_id: UUID = Path(
 def home():
     return {"Twitter API": "Working!"}
 
-### Post Tweet
+### Post Tweet jona
 @app.post(
             path="/post",
             response_model=Tweet,
